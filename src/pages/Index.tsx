@@ -114,7 +114,7 @@ const Index = () => {
           <h2 className="text-4xl font-semibold mb-12 text-center">
             Видео-упражнения
           </h2>
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="max-w-4xl mx-auto space-y-8">
             {exercises.map((exercise) => (
               <Card key={exercise.id} className="overflow-hidden hover-scale transition-all duration-300 bg-white border-border shadow-sm">
                 <div className="aspect-video bg-muted relative">
